@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title></title>
+	<script type="text/javascript" src="scriptquiz.js"></script>
+	<script type="text/javascript" src="toolBox.js"></script>
+	<link rel="stylesheet" type="text/css" href="quizstyle.css">
+</head>
+<body onload="init()">
+<div id="quiz">
+	<canvas id="ecran" width="750" height="450"></canvas>
+	<br>
+	<button type="button" id="boutton1" onclick="reponse1()">Choix n°1</button>
+	<button type="button" id="boutton2" onclick="reponse2()">Choix n°2</button>
+</div>
+<script type="text/javascript">
+	var imFond=[];
+	for (var i = 0; i <4; i++)
+	{
+		imFond[i] = document.createElement('img');
+		imFond[i].src="media/Fond/salle"+i+".jpg";
+		imFond[i].alt="salle";
+	}
+
+	var imPerso=[];
+	for (var i = 0; i <7; i++)
+	{
+		imPerso[i] = document.createElement('img');
+		imPerso[i].src="media/Personnage/perso"+i+".png";
+		imPerso[i].alt="personnage";
+	}
+</script>
+
+</body>
+</html>
