@@ -16,14 +16,16 @@ html
 
 #navbar h1
 {
+    float: right;
     margin-top: 10px;
     margin-bottom: 10px;
-    margin-right: 10px;
+    margin-right: 85px;
     align-content: flex-end;
     color: white;
     font-size: 50px;
     text-align: right;
-    width: 1610px;
+    width: 1800px;
+
 }
 
 #navbar ul
@@ -37,7 +39,8 @@ html
     overflow: hidden;
     background-color: #333;
     border-radius: 10px;
-    width: 1515px;
+    width: 1670px;
+    height: 65px;
     margin: auto;
     font-size: 30px;
     color: white;
@@ -47,6 +50,7 @@ html
 
 #navbar li
 {
+    display: block;
     float: left;
     border-right: 1px solid #bbb;
 }
@@ -54,8 +58,24 @@ html
 #navbar li:last-child
 /* Bordure droite non présente sur le dernier onglet*/
 {
+    float: right;
+    position: sticky;
+    font-size: 30px;
+    text-align: right;
+    margin-left: 10px;
     border-right: none;
     border-left: 1px solid #bbb;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    align-content: center;
+    overflow: hidden;
+    background-color: #333;
+    width: 110px;
+    height: 65px;
+    margin: auto;
+    font-size: 30px;
+    color: white;
 }
 
 #navbar li a
@@ -88,19 +108,19 @@ html
 #navbar iframe
 {
     overflow: hidden;
-    width: 550px;
+    width: 545px;
     padding: 0;
     height: 40px;
     margin-left: 15px;
-    margin-right: 15px;
-    margin-top: 10px;
+    margin-right: 0px;
+    margin-top: 12px;
 }
 
 section 
 {
     width: 1400px;
 	margin: auto;
-    height: 2000px;
+    height: 2500px;
     background-color: white;
     margin-top: 30px;
     border-top-left-radius: 20px;
@@ -135,9 +155,11 @@ section
     width: 1400px;
 }
 
+/* Une : Vault 7 */
+
 #une
 {
-    margin-top: 30px;
+    margin-top: 40px;
 }
 
 #une h2
@@ -151,22 +173,22 @@ section
     border-bottom: 3px solid black;
     border-left: 3px solid black;
     border-right: 3px solid black;
-    font-size: 30px;
+    font-size: 24px;
     background-color: #5a79a6;
     text-align: center;
     margin: auto;
     height: 40px;
-    width: 550px;
+    width: 540px;
 }
 
 #une img
 {
     display: block;
     margin-top: 0px;
-    margin-left: 40px;
-    margin-right: 40px;
+    margin-left: 50px;
+    margin-right: 60px;
     margin-bottom: 0px;
-    width: 20%;
+    width: 19%;
     float: left;
     
 }
@@ -174,14 +196,81 @@ section
 #une p
 {
     display: grid;
-    font-size: 30px;
+    font-size: 27px;
     width: 800px;
     height: 220px;
     margin-left: 30px;
-    margin-top: 30px;
+    margin-top: 15px;
     margin-bottom: 30px;
-    text-align: center;
+    text-align: justify;
     
+}
+
+#une a
+/*Lire la suite*/
+{
+    text-decoration: none;
+    text-align: right;
+}
+
+/* Une2 : Edward Snowden */
+
+#une2
+{
+    margin-top: 10px;
+}
+
+#une2 h2
+/*Titre*/
+{
+    margin-top: 150px;
+    border-radius: 5px;
+    display: inline-flex;
+    padding-left: 15px;
+    padding-top: 5px;
+    border-top: 3px solid black;
+    border-bottom: 3px solid black;
+    border-left: 3px solid black;
+    border-right: 3px solid black;
+    font-size: 24px;
+    background-color: #5a79a6;
+    text-align: center;
+    margin: auto;
+    height: 40px;
+    width: 540px;
+}
+
+#une2 img
+{
+    display: block;
+    margin-top: 1px;
+    margin-left: 40px;
+    margin-right: 40px;
+    margin-bottom: 0px;
+    width: 21%;
+    float: left;
+    
+}
+
+#une2 p
+/*Texte*/
+{
+    display: grid;
+    font-size: 27px;
+    width: 800px;
+    height: 220px;
+    margin-left: 30px;
+    margin-top: 15px;
+    margin-bottom: 30px;
+    text-align: justify;
+    
+}
+
+#une2 a
+/*Lire la suite*/
+{
+    text-decoration: none;
+    text-align: right;
 }
     
 #affiche
@@ -194,7 +283,7 @@ section
     text-align: center;
     font-size: 25px;
     width: 1400px;
-    margin-top: -15px;
+    margin-top: 50px;
 }
 
 #progaffiche h2
@@ -225,7 +314,7 @@ section
 #plusprog
 {
     margin-top: 10px;
-    margin-left: 560px;
+    margin-left: 540px;
 }
 
 #plusprog a
@@ -234,10 +323,11 @@ section
     float: left;
     width: 310px;
     font-size: 25px;
-    margin-left: 40px;
+    margin-left: 0px;
     text-decoration: none;
     text-transform: uppercase;
     text-decoration: blink;
+    text-align: center;
     color: red;
 }
 
@@ -245,8 +335,9 @@ section
 /*Difficulté*/
 {
     margin-top: 0px;
+    margin-left: -10px;
     float: left;
-    width: 200px;
+    width: 250px;
     font-size: 25px;
     color: green;
     text-transform: uppercase;
@@ -259,7 +350,7 @@ section
     float: left;
     width: 125px;
     font-size: 25px;
-    margin-left: 40px;
+    margin-left: 30px;
     text-decoration: none;
     text-transform: uppercase;
     color: red;
@@ -275,7 +366,7 @@ section
     text-align: center;
     font-size: 25px;
     width: 1400px;
-    margin-top: 15px;
+    margin-top: 25px;
 }
 
 #piedpage p
