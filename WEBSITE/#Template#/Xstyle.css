@@ -1,0 +1,180 @@
+*
+{
+    margin: 0px;
+    padding: 0px;
+}
+
+html
+{
+    /* Background illustratif et non définitif */
+    background-color: #323E55;
+    /*background-image: url(media/banner.jpg);*/
+    background-repeat: no-repeat;
+    background-size : 1715px 400px;
+
+}
+
+#navbar h1
+{
+    float: right;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-right: 85px;
+    align-content: flex-end;
+    color: white;
+    font-size: 50px;
+    text-align: right;
+    width: 1800px;
+
+}
+
+#navbar ul
+{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    align-content: center;
+    margin-left: 150px;
+    margin-right: 150px;
+    overflow: hidden;
+    background-color: #333;
+    border-radius: 10px;
+    width: 1670px;
+    height: 65px;
+    margin: auto;
+    font-size: 30px;
+    color: white;
+    border-style: outset;
+    border-color: #333;
+}
+
+#navbar li
+{
+    display: block;
+    float: left;
+    border-right: 1px solid #bbb;
+}
+
+#navbar li:last-child
+/* Bordure droite non présente sur le dernier onglet*/
+{
+    float: right;
+    position: sticky;
+    font-size: 30px;
+    text-align: right;
+    margin-left: 10px;
+    border-right: none;
+    border-left: 1px solid #bbb;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    align-content: center;
+    overflow: hidden;
+    background-color: #333;
+    width: 110px;
+    height: 65px;
+    margin: auto;
+    font-size: 30px;
+    color: white;
+}
+
+#navbar li a
+{
+    display: block;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    padding: 14px 16px;
+}
+
+#navbar li a:hover:not(.active)
+/* Couleur lors du passage de la souris*/
+{
+    background-color: #111;
+}
+
+#navbar .active
+/* Pour colorer l'onglet de la page active */
+{
+    background-color: #4CAF50;
+}
+
+#horloge
+{
+    font-size: 30px;
+    padding: 14px 16px;
+}
+
+#navbar iframe
+{
+    overflow: hidden;
+    width: 545px;
+    padding: 0;
+    height: 40px;
+    margin-left: 15px;
+    margin-right: 0px;
+    margin-top: 12px;
+}
+
+section 
+{
+    width: 1400px;
+	margin: auto;
+    height: 2500px;
+    background-color: white;
+    margin-top: 30px;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    border-top : 2px solid #ff9103;
+    border-left: 2px solid #ff9103;
+    border-right: 2px solid #ff9103;
+    border-bottom: 2px solid #EF8A2A;
+}
+
+#presentation
+{
+    height: 300px;
+    margin-top: 0px;
+    background-image: url(media/bannertux.jpg);
+    border-top-left-radius: 20px;
+    border-top-right-radius: 19px;
+    background-repeat: no-repeat;
+    background-size: 1400px 300px;
+    
+}
+
+#titre1
+{   
+    display: inline-block;
+    border-radius: 0px;
+    background-color: #FE4C4B;
+    padding-top: 0px;
+    padding-bottom: 5px;
+    text-align: center;
+    font-size: 25px;
+    width: 1400px;
+}
+
+#piedpage p
+{   
+    background-color: white;
+    padding-top: 10px;
+    margin: 60px auto;
+    padding-bottom: 10px;
+    text-align: center;
+    font-size: 20px;
+    width: 1500px;
+    align-content: center;
+    border-radius: 10px;
+    font-family: arial;
+}
+
+#piedpage img
+{
+    display: block;
+    align-content: center;
+    text-align: center;
+    margin-top: 20px;
+    width: 10%;
+    margin: 20px auto;
+}
