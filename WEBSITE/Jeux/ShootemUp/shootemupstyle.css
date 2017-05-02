@@ -1,0 +1,80 @@
+*
+{
+    margin: 0px;
+    padding: 0px;
+}
+
+#shootemup
+{
+    width: 800px;
+    height: 1000px;
+    margin: 0px auto;
+    text-align: center;
+}
+
+#texte
+{
+    font-size: 25px;
+    font-family: "Comic Sans MS", cursive, sans-serif;
+}
+
+.txt
+{
+    border-radius: 25px;
+    padding: 10px;
+}
+
+header
+{
+    font-size: 40px;
+    background-image: url(media/fonds/matrix1.png);
+    color: aquamarine;
+    line-height: 100px;
+    text-decoration: underline;
+}
+
+#orange
+{
+    background-color: darkorange;
+}
+
+#vert
+{
+    background-color: limegreen;
+}
+
+#canvas-wrap 
+{ 
+    position:relative;
+}
+
+#perdu
+{
+    display: none;
+    margin-top: 145px;
+    margin-left: 115px;
+    position: absolute;
+    font-size: 40px;
+    color: red;
+}
+
+#gagne
+{
+    display: none;
+    margin-top: 145px;
+    margin-left: 10px;
+    position: absolute;
+    font-size: 40px;
+    color: limegreen;
+}
+    
+#txtboutton
+{
+    border: 5px dotted lightblue;
+}
+
+#lancejeux
+{
+    margin-top: 10px;
+    margin-bottom: 15px;
+}

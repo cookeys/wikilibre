@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+	<title>Shoot'em Up</title>
+    <link rel="stylesheet" type="text/css" href="shootemupstyle.css">
+    <script type="text/javascript" src="scriptshootemup.js"></script>
+    <script type="text/javascript" src="toolBox.js"></script>
+    
+    <script>
+        var imgFond=[];
+		for (var i = 0; i < 2; i++)
+		{
+			imgFond[i] = document.createElement('img');
+			imgFond[i].src="media/fonds/matrix"+i+".png";
+			imgFond[i].alt="matrix"+i;
+		}
+        
+        var imgSnowden;
+            imgSnowden = document.createElement('img');
+            imgSnowden.src="media/elements/snowden.png";
+            imgSnowden.alt="snowden";
+        
+        var imgCia;
+            imgCia = document.createElement('img');
+            imgCia.src="media/elements/cia.png";
+            imgCia.alt="CIA";
+        
+        var imgLinux;
+            imgLinux = document.createElement('img');
+            imgLinux.src="media/elements/linux.png";
+            imgLinux.Alt="Linus";
+        
+        var imgCoeur;
+            imgCoeur = document.createElement('img');
+            imgCoeur.src="media/elements/coeur.png"
+            imgCoeur.alt="coeur";
+        
+        var imgCoeurVide;
+            imgCoeurVide = document.createElement('img');
+            imgCoeurVide.src="media/elements/coeurvide.png"
+            imgCoeurVide.alt="coeur";
+        
+        var imgMicrosoft;
+            imgMicrosoft = document.createElement('img');
+            imgMicrosoft.src="media/elements/microsoft.png";
+            imgMicrosoft.alt="microsoft"
+        
+        var imgApple;
+            imgApple = document.createElement('img');
+            imgApple.src="media/elements/apple.png";
+            imgApple.alt="apple";
+    </script>
+    
+</head>
+<body onload="init()"  onkeypress="directionSnowden(event)">
+    <div id="shootemup">
+        
+            <div id="texte">
+                
+                <header class="txt"> Présentation du jeu: </header>
+                
+                <div class="txt" id="orange"> <img src="media/elements/snowden.png" alt="media/elements/snowden.png"> 
+                    <br>
+                    Ceci est votre personnage. 
+                    <br>
+                    Vous le controllez à l'aide des touches Z(haut) et S(bas).</div>
+                
+                <div class="txt" id="vert"> <img src="media/elements/cia.png" alt="media/elements/cia.png">
+                    <br>
+                    La CIA est votre ennemi juré!
+                    <br>
+                    Si elle capture un logo, alors il vous arrivera différents malus!</div>
+                
+                <div class="txt" id="orange"> <img src="media/elements/linux.png" alt="media/elements/linux.png"> 
+                    <br>
+                    Ce gentil pingouin est votre plus grand allié!
+                    <br>
+                    Il vous faut l'attraper à tout prix!</div>
+                
+                <div class="txt" id="vert"> <img src="media/elements/microsoft.png" alt="media/elements/microsoft.png"> 
+                    <br>
+                    Un ennemi!  
+                    <br>
+                    Évitez-le, il ne vous arrivera que des ennuis!</div>
+                
+                <div class="txt" id="orange"> <img src="media/elements/apple.png" alt="media/elements/apple.png">
+                    <br>
+                    Faites extrêmement attention! 
+                    <br>
+                    Dès que la CIA attrape un logo, elle vous tirera dessus avec ces projectiles! </div>
+                
+                
+                
+                <header class="txt"> Règles du jeu: </header>
+                
+                <div class="txt" id="vert"> <img src="media/regles/snowdenpluslinux.png" alt="media/regles/snowdenpluslinux.png"> 
+                <br>
+                Lorsque vous attrapez un logo Linux, vous avez un point en plus!</div>
+                
+                <div class="txt" id="orange"> <img src="media/regles/dixscoreegaluncoeur.png" alt="media/regles/dixscoreegaluncoeur.png">
+                <br>
+                Tous les 10 de score, vous récupérez un coeur!</div>
+                
+                <div class="txt" id="vert"> <img src="media/regles/quinzescoreegalmoinscoeurcia.png" alt="media/regles/quinzescoreegalmoinscoeurcia.png">
+                <br>
+                Tous les 15 de score, la CIA perd un coeur!</div>
+                
+                <div class="txt" id="orange"> <img src="media/regles/snowdenplusennemiegalmoinscoeur.png" alt="media/regles/snowdenplusennemiegalmoinscoeur.png">
+                <br>
+                Si vous vous faites toucher par un logo Microsoft ou Apple, vous perdez un coeur!</div>
+                
+                <div class="txt" id="vert"> <img src="media/regles/ciaplusinuxegalmoinscoeur.png" alt="media/regles/ciaplusinuxegalmoinscoeur.png">
+                <br>
+                Lorsque la CIA attrape Linux, vous perdez un coeur et elle lance un logo Apple!</div>
+                
+                <div class="txt" id="orange"> <img src="media/regles/ciaplusmicroegalapple.png" alt="media/regles/ciaplusmicroegalapple.png">
+                <br>
+                Si la CIA attrape Microsoft, elle lancera le logo d'Apple!</div>
+                
+                <br>
+                <h1>Voici comment le jeu va se dérouler:</h1>
+                <img src="media/regles/screenjeux.png">
+            </div>
+        
+        <br>
+        
+        <h1 id="txtboutton"> Pour démarrer le jeu, cliquez sur ce boutton:</h1>
+        <img id="lancejeux" src="media/bouttons/off.png" alt="media/bouttons/off.png" onclick="repeter()">
+        
+        <h1 id="perdu">Snowden a perdu. <br> La CIA a le contrôle du monde!</h1>
+        <h1 id="gagne">Snowden a gagné! <br> Toutes les données de la CIA ont été détruites!</h1>
+        <canvas id="toile" width="800" height="400"></canvas>
+        
+    </div>
+</body>
+</html>
