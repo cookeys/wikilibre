@@ -1,3 +1,8 @@
+/*########################################################################
+##########################################################################
+####/                           Globale                              /####
+##########################################################################
+########################################################################*/
 *
 {
     margin: 0px;
@@ -13,6 +18,17 @@ html
     background-size : 1715px 400px;
 
 }
+
+a
+{
+    text-decoration: none;
+}
+
+/*########################################################################
+##########################################################################
+####/                        Css du site                             /####
+##########################################################################
+########################################################################*/
 
 #navbar h1
 {
@@ -120,7 +136,7 @@ section
 {
     width: 1400px;
 	margin: auto;
-    height: 2500px;
+    height: 1400px;
     background-color: white;
     margin-top: 30px;
     border-top-left-radius: 20px;
@@ -143,7 +159,7 @@ section
     
 }
 
-#titre1
+#titre
 {   
     display: inline-block;
     border-radius: 0px;
@@ -155,11 +171,16 @@ section
     width: 1400px;
 }
 
+#piedpage
+{
+    
+}
+
 #piedpage p
 {   
     background-color: white;
     padding-top: 10px;
-    margin: 60px auto;
+    margin: 20px auto;
     padding-bottom: 10px;
     text-align: center;
     font-size: 20px;
@@ -177,4 +198,446 @@ section
     margin-top: 20px;
     width: 10%;
     margin: 20px auto;
+}
+
+/*########################################################################
+##########################################################################
+####/              Css de la page d'acceuil des articles             /####
+##########################################################################
+########################################################################*/
+
+/*########################################################################
+####/            CSS de la partie des grands articles                /####
+########################################################################*/
+
+#wrap_ga
+{
+    
+}
+
+.grand_article
+{
+    width: 1120px ;
+    height: 250px ;
+    margin: 40px auto;
+    background-color: #6b0303;
+    border-radius: 4px;
+}
+#article_1
+{
+    margin-top: 70px;
+}
+
+.description_ga
+{
+    width: 1120px ;
+    height: 55px ;
+    position: absolute;
+    margin-top: 195px;
+    background-color: rgba(28,28,28,0.5);
+    border-bottom-right-radius: 4px;
+	border-bottom-left-radius: 4px;
+    color:#707375;
+}
+
+.description_ga:hover
+{
+    background-color: rgba(28,28,28,0.8);
+}
+
+.description_ga:hover span
+{
+    color: white;
+}
+
+.titre_ga
+{
+    float: left;
+    margin-top: 5px;
+    margin-left: 15px;
+    font-size: 40px;
+}
+
+.suite_ga
+{
+    float: right;
+    color: #707375;;   
+    margin-right: 10px;
+    margin-top: 10px;
+    font-size: 30px;
+}
+
+.suite_ga:hover
+{
+    border-bottom: 2px solid white;
+}
+
+.texte_noir
+{
+    color: black;
+}
+
+
+/*########################################################################
+####/            CSS de la partie des petits articles                /####
+########################################################################*/
+#hide_2
+{
+    display: none;
+}
+
+.hide
+{
+    display: block;
+    margin: 50px auto;
+    width: 200px;
+    height: 50px;
+    border-radius: 3px;
+    font-size: 25px;
+    border: none;
+    background-color: white;
+}
+
+
+
+#fond_3a
+{
+    display: block;
+    width: 1400px;
+    height: 300px;
+    margin: 0px auto;
+    background-color: white;
+    border-left: 2px solid #ff9103;
+    border-right: 2px solid #ff9103;
+    border-bottom: 2px solid #EF8A2A;
+    display: none;
+}
+
+#wrap_pa
+{
+    display: none;
+    /*width: 0px;
+    height: 0px;*/
+}
+
+.trois_petits_articles
+{
+    width: 1120px ;
+    height: 225px ;
+    margin: 70px auto;
+    border-radius: 4px;
+    background-color: ;
+}
+
+.petit_article_1
+{
+    width: 360px ;
+    height: 225px ;
+    background-color: #6b0303;
+    float: left;
+    border-radius: 4px;
+    color:#707375;
+    
+}
+
+.petit_article
+{
+    width: 360px ;
+    height: 225px ;
+    background-color: #6b0303;
+    float: left;
+    margin-left: 20px;
+    border-radius: 4px;    
+}
+
+.infos
+{
+    width: 360px ;
+    height: 55px ;
+    position: absolute;
+    margin-top: 170px;
+    background-color: rgba(28,28,28,0.6) ;
+    border-bottom-right-radius: 4px;
+	border-bottom-left-radius: 4px;    
+}
+
+.infos:hover
+{
+    background-color: rgba(28,28,28,0.8) ;
+}
+
+.infos:hover span
+{
+    color: white;
+}
+
+.titre_pa
+{
+    float: left;
+    margin-top: 15px;
+    margin-left: 10px;
+    font-size: 25px;
+    color:#707375;
+}
+
+.suite_pa
+{
+    float: right;
+    color: black;
+    margin-top: 20px;
+    margin-right: 10px;
+    font-size: 15px;
+    color:#707375;
+}
+
+.suite_pa:hover
+{
+    border-bottom: 1px solid white;
+}
+
+
+/*########################################################################
+##########################################################################
+####/                 CSS de la partie des articles                  /####
+##########################################################################
+########################################################################*/
+
+/*########################################################################
+####/                          article 1                             /####
+########################################################################*/
+
+#accueil_a1
+{
+    height: 1950px;
+}
+
+#accueil_a1 a 
+{
+    color: black;
+    text-decoration: underline;
+}
+
+#article_1
+{
+    background-image: url("media/ubuntu.png");
+}
+
+#actu_1
+{
+    font-family: arial;
+    font-size: 25px;
+    text-align: justify;
+}
+
+#actu_1 p 
+{
+    margin-top: 45px;
+    margin-left: 100px;
+    margin-right: 100px;
+}
+
+#images_a1
+{
+    width: 900px;
+    margin: 10px auto;
+}
+
+#img3_a1
+{
+    display: block;
+    margin: 10px auto;
+}
+
+/*########################################################################
+####/                          article 2                             /####
+########################################################################*/
+#accueil_a2
+{
+    height: 2500px;
+}
+
+#article_2
+{
+    background-image: url("media/qwant.jpg");
+    font-family: arial;
+}
+
+#actu_2
+{
+    font-family: arial;
+    font-size: 25px;
+    text-align: justify;
+}
+
+#actu_2 p 
+{
+    margin-top: 45px;
+    margin-left: 100px;
+    margin-right: 100px;
+}
+
+#img1_a2
+{
+    display: block;
+    margin: 10px auto;
+}
+
+#img2_a2
+{
+    display: block;
+    margin: 10px auto;
+}
+
+/*########################################################################
+####/                          article 3                             /####
+########################################################################*/
+
+#accueil_a3    
+{
+    height: 2050px;
+}
+
+#article_3
+{
+    background-image: url("media/intel.jpg");
+}
+
+#actu_3
+{
+    font-family: arial;
+    font-size: 25px;
+    text-align: justify;
+}
+
+#actu_3 p 
+{
+    margin-top: 45px;
+    margin-left: 100px;
+    margin-right: 100px;
+}
+
+#img1_a3
+{
+    display: block;
+    margin: 10px auto;
+}
+
+#img2_a3
+{
+    display: block;
+    margin: 10px auto;
+}
+
+/*########################################################################
+####/                          article 4                             /####
+########################################################################*/
+
+#accueil_a4     
+{
+    height: 2050px;
+}
+
+#article_4
+{
+    background-image: url("media/defcon.jpg");
+    background-size: 100% 100%;
+}
+
+#actu_4
+{
+    font-family: arial;
+    font-size: 25px;
+    text-align: justify;
+}
+
+#actu_4 p 
+{
+    margin-top: 45px;
+    margin-left: 100px;
+    margin-right: 100px;
+}
+
+#img_a4
+{
+    display: block;
+    margin: 50px auto;
+}
+
+/*########################################################################
+####/                          article 5                             /####
+########################################################################*/
+
+#article_5
+{
+    background-image: url("media/cia.jpg");
+}
+
+#accueil_a5    
+{
+    height: 2050px;
+}
+
+#actu_5
+{
+    font-family: arial;
+    font-size: 25px;
+    text-align: justify;
+}
+
+#actu_5 p 
+{
+    margin-top: 45px;
+    margin-left: 100px;
+    margin-right: 100px;
+}
+
+#img1_a5
+{
+    display: block;
+    margin: 20px auto;
+}
+
+#img2_a5
+{
+    display: block;
+    margin: 20px auto;
+}
+
+/*########################################################################
+####/                          article 6                             /####
+########################################################################*/
+#accueil_a6
+{
+    height: 2050px;
+}
+
+#article_6
+{
+    background-image: url("media/open_source.png");
+}
+
+#actu_6
+{
+    font-family: arial;
+    font-size: 25px;
+    text-align: justify;
+}
+
+#actu_6 p 
+{
+    margin-top: 45px;
+    margin-left: 100px;
+    margin-right: 100px;
+}
+
+#images_a6
+{
+    width: 1300px;
+    margin: 10px auto;
+}
+
+#img3_a6
+{
+    display: block;
+    margin: 10px auto;
 }

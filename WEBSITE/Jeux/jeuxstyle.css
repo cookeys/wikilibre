@@ -120,7 +120,7 @@ section
 {
     width: 1400px;
 	margin: auto;
-    height: 2500px;
+    height: 1840px;
     background-color: white;
     margin-top: 30px;
     border-top-left-radius: 20px;
@@ -147,12 +147,133 @@ section
 {   
     display: inline-block;
     border-radius: 0px;
-    background-color: #FE4C4B;
+    background-color: #FF0000;
+    color: #0800AE;
     padding-top: 0px;
     padding-bottom: 5px;
     text-align: center;
     font-size: 25px;
     width: 1400px;
+}
+
+hr
+{
+    border-style: solid;
+    border-width: 10px;
+    color: black;
+}
+
+hr.hrquizz
+{
+    color: #EAFF00;
+}
+
+#snowdensaver h1
+{
+    width: 1400px;
+    background-color: #0800AE;
+    color: #FF0000;
+    font-size: 30px;
+    text-align: center;
+}
+
+#snowdensaver img
+{
+    width: 795px;
+    height: 400px;
+    margin-top: 20px;
+    margin-left: 300px;
+    margin-right: 300px;
+}
+
+#snowdensaver p
+{
+    text-align: center;
+    margin-left: 200px;
+    margin-right: 200px;
+    margin-top: 20px;
+    font-size: 25px;
+    font-family: arial;
+    width: 1000px;
+}
+
+#quizz h1
+{
+    width: 1400px;
+    background-color: #00BE2C;
+    color: white;
+    font-size: 30px;
+    text-align: center;
+}
+
+#quizz img
+{
+    width: 795px;
+    height: 400px;
+    margin-top: 20px;
+    margin-left: 300px;
+    margin-right: 300px;
+}
+
+#quizz p
+{
+    text-align: center;
+    margin-left: 200px;
+    margin-right: 200px;
+    margin-top: 20px;
+    font-size: 25px;
+    font-family: arial;
+    width: 1000px;
+}
+
+input
+{
+    text-align: center;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+    padding-top: 10px;
+    font-size: 60px;
+    width: 280px;
+    height: 90px;
+}
+
+input:hover
+{
+    color:red;
+}
+
+input.regles
+{
+    margin-top: 30px;
+    margin-left: 390px;
+    margin-right: 20px;
+}
+
+input.jouer
+{
+    margin-top: 30px;
+    margin-left: 20px; 
+}
+
+input.regles:hover
+{
+    cursor: help;
+}
+
+input.jouer:hover
+{
+    cursor: pointer;
+}
+
+input.jouerquizz
+{
+    margin-top: 30px;
+    margin-left: 550px;
+}
+
+input.jouerquizz:hover
+{
+    cursor: pointer;
 }
 
 #piedpage p

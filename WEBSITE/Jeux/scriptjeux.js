@@ -18,10 +18,6 @@ window.onload=function()
 }
 
 
-//Script de clignotement
-var blink_speed = 600; 
-var t = setInterval(function ()                    
-{   
-    var ele = document.getElementById('download'); 
-    ele.style.visibility = (ele.style.visibility == 'hidden' ? '' : 'hidden'); 
-}, blink_speed);
+
+
+
