@@ -120,7 +120,7 @@ section
 {
     width: 1400px;
 	margin: auto;
-    height: 2500px;
+    height: 2700px;
     background-color: white;
     margin-top: 30px;
     border-top-left-radius: 20px;
@@ -143,17 +143,225 @@ section
     
 }
 
+/*  Programme 1 */
+
 #titre1
 {   
     display: inline-block;
     border-radius: 0px;
-    background-color: #FE4C4B;
+    background-color: #7900CE;
     padding-top: 0px;
     padding-bottom: 5px;
     text-align: center;
     font-size: 25px;
     width: 1400px;
+    font-family: arial;
 }
+
+
+#progaffiche1 h2
+{
+    text-align: center;
+    margin-top: 20px;
+    font-size: 30px;
+}
+
+#progaffiche1 img
+{
+    float: left;
+    display: block;
+    margin-top: 30px;
+    margin-left: 40px;
+    width: 40%;
+}
+
+#progaffiche1 p
+{
+    text-align: justify;
+    margin-top: 40px;
+    margin-left: 40px;
+    font-size: 25px;
+    display: grid;
+    width: 750px;
+}
+
+
+
+/*  Programme 2 */
+
+#titre2
+{   
+    display: inline-block;
+    border-radius: 0px;
+    background-color: #37B24A;
+    padding-top: 0px;
+    padding-bottom: 5px;
+    text-align: center;
+    font-size: 25px;
+    width: 1400px;
+    font-family: arial;
+}
+
+
+#progaffiche2 h2
+{
+    text-align: center;
+    margin-top: 20px;
+    font-size: 30px;
+}
+
+#progaffiche2 img
+{
+    float: left;
+    display: block;
+    margin-top: 30px;
+    margin-left: 40px;
+    margin-right: 30px;
+    width: 38%;
+}
+
+#progaffiche2 p
+{
+    text-align: justify;
+    margin-top: 40px;
+    margin-left: 40px;
+    font-size: 25px;
+    display: grid;
+    width: 750px;
+}
+
+/*  Programme 3 */
+
+#titre3
+{   
+    display: inline-block;
+    border-radius: 0px;
+    background-color: #F46305;
+    padding-top: 0px;
+    padding-bottom: 5px;
+    text-align: center;
+    font-size: 25px;
+    width: 1400px;
+    font-family: arial;
+}
+
+
+#progaffiche3 h2
+{
+    text-align: center;
+    margin-top: 20px;
+    font-size: 30px;
+}
+
+#progaffiche3 img
+{
+    float: left;
+    display: block;
+    margin-top: 40px;
+    margin-left: 85px;
+    margin-right: 30px;
+    width: 35%;
+}
+
+#progaffiche3 p
+{
+    text-align: justify;
+    margin-top: 40px;
+    margin-left: 40px;
+    font-size: 25px;
+    display: grid;
+    width: 750px;
+}
+
+/*  Programme 4 */
+
+#titre4
+{   
+    display: inline-block;
+    border-radius: 0px;
+    background-color: #EAD006;
+    padding-top: 0px;
+    padding-bottom: 5px;
+    text-align: center;
+    font-size: 25px;
+    width: 1400px;
+    font-family: arial;
+}
+
+
+#progaffiche4 h2
+{
+    text-align: center;
+    margin-top: 20px;
+    font-size: 30px;
+}
+
+#progaffiche4 img
+{
+    float: left;
+    display: block;
+    margin-top: 40px;
+    margin-left: 90px;
+    margin-right: 95px;
+    width: 30%;
+}
+
+#progaffiche4 p
+{
+    text-align: justify;
+    margin-top: 40px;
+    margin-left: 40px;
+    font-size: 25px;
+    display: grid;
+    width: 750px;
+}
+
+#plusprog
+{
+    margin-top: 10px;
+}
+
+#plusprog a
+/*Description*/
+{
+    float: left;
+    width: 310px;
+    font-size: 25px;
+    margin-left: 540px;
+    margin-bottom: 20px;
+    text-decoration: none;
+    text-transform: uppercase;
+    text-decoration: blink;
+    text-align: center;
+    color: red;
+}
+
+#plusprog p
+/*Difficulté*/
+{
+    margin-top: 0px;
+    margin-left: 0px;
+    float: left;
+    width: 250px;
+    font-size: 25px;
+    color: green;
+    text-transform: uppercase;
+}
+
+
+#plusprog2 a
+/*Télécharger*/
+{
+    float: left;
+    width: 0px;
+    font-size: 25px;
+    margin-left: 30px;
+    text-decoration: none;
+    text-transform: uppercase;
+    color: red;
+}
+
+/*Pied de page*/
 
 #piedpage p
 {   

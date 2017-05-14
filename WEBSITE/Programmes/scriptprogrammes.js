@@ -22,6 +22,10 @@ window.onload=function()
 var blink_speed = 600; 
 var t = setInterval(function ()                    
 {   
-    var ele = document.getElementById('download'); 
-    ele.style.visibility = (ele.style.visibility == 'hidden' ? '' : 'hidden'); 
+    var ele = document.getElementsByClassName('blink'); 
+    for (var i=0; i<ele.length; i++)
+        {
+            ele[i].style.visibility = (ele[i].style.visibility == 'hidden' ? '' : 'hidden'); 
+        }
 }, blink_speed);
+
