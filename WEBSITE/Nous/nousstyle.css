@@ -118,9 +118,10 @@ html
 
 section 
 {
+    font-family: arial;
     width: 1400px;
 	margin: auto;
-    height: 2500px;
+    height: 3000px;
     background-color: white;
     margin-top: 30px;
     border-top-left-radius: 20px;
@@ -153,6 +154,32 @@ section
     text-align: center;
     font-size: 25px;
     width: 1400px;
+}
+
+.profil
+{
+    margin-top: 100px;
+    margin-left: 40px;
+}
+
+.profil h2
+{
+    font-size: 30px;
+}
+
+.profil img
+{
+    width: 347px;
+    height: 347px;
+}
+
+.description
+{
+    display: inline;
+    position: absolute;
+    font-size: 30px;
+    margin-left: 30px;
+    margin-top: 75px;
 }
 
 #piedpage p
