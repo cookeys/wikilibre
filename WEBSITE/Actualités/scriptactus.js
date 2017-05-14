@@ -34,33 +34,21 @@ window.onload=function()
 #####################################################################################
 ###################################################################################*/
 
-function hide() 
-        {
-            var x = document.getElementById('wrap_pa');
-            var y = document.getElementById('hide_1');
-            var z = document.getElementById('hide_2');
-            var w = document.getElementById('fond_3a');
-            var v = document.getElementById('accueil');
-            
-            
-            
-            if (x.style.display == 'none') 
-            {
-                x.style.display = 'block';
-                y.style.display = 'none';
-                z.style.display = 'block';
-                w.style.display = "block";
-                v.style.borderBottom = "0px solid #ffffff";
-            } 
-            
-            else 
-            {
-                x.style.display = 'none'; 
-                y.style.display = 'block';
-                z.style.display = 'none';   
-                w.style.display = 'none'; 
-                v.style.borderBottom = "2px solid #EF8A2A";
-            }
-        }
+function show() 
+{
+   	document.getElementById('wrap_pa').style.display = 'block';
+ 	document.getElementById('show').style.display = 'none';
+ 	document.getElementById('hide').style.display = 'block';
+	document.getElementById('fond_3a').style.display = "block";
+	document.getElementById('accueil').style.borderBottom = "0px solid #ffffff";
+}
 
+function hide()
+{
+   document.getElementById('wrap_pa').style.display = 'none'; 
+   document.getElementById('show').style.display = 'block';
+   document.getElementById('hide').style.display = 'none';   
+   document.getElementById('fond_3a').style.display = 'none'; 
+   document.getElementById('accueil').style.borderBottom = "2px solid #EF8A2A";
+}
 

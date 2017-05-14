@@ -18,13 +18,7 @@
         <link rel="icon" href="media/favicon.ico" type="image/x-icon">
 </head>
     
-<header>
-    
-    <!-- Bannière -->        
-    <div id="banner">
-
-    </div>
-    
+<body>
     <!-- Barre de navigation -->
     	<div id="navbar">
 	        <h1>WikiLibre</h1>
@@ -55,29 +49,28 @@
         
     <!-- Présentation -->
         <div id="presentation">        
-            <!-- <h1>Bienvenue sur WikiLibre [...]<br>Présentation rapide des personnes et du but du site<br>Découverte et fonctions<br>Date et proprios du site
-            <br>Définition du libre</h1> -->
+            <!--Bannière-->
         </div>
     
     <!-- Actualités -->
         <div id="actus">
-            <h1>Actualités :</h1>
+            <h1>Les derniers articles :</h1>
         </div>
     
     <!-- A la une -->
         <div id="une">
             <h2>Vault 7 : Le leak de trop pour la C.I.A. ? </h2>
-            <img class="aligncenter" src="media/cialogo.png" alt="carte">
+            <img class="aligncenter" src="media/cialogo.png" alt="cialogo">
             <p>
-            Le site de Julian Assange vient de publier des milliers de documents qui exposent les innombrables outils de piratage de la célèbre agence d’espionnage américaine. Un leak édifiant, plus riche encore que les révélations d’Edward Snowden. <a href="articlecia.html">Lire la suite</a></p>
+            Le site de Julian Assange vient de publier des milliers de documents qui exposent les innombrables outils de piratage de la célèbre agence d’espionnage américaine. Un leak édifiant, plus riche encore que les révélations d’Edward Snowden. <a href="../Actualités/actu_5.html">Lire la suite</a></p>
             <br>
             </div>
             
         <div id="une2">
-            <h2>Edward Snowden livré aux États Unis ? </h2>
-            <img class="aligncenter" src="media/snowden.jpg" alt="carte">
+            <h2>Qwant: Le moteur de recherche français !</h2>
+            <img class="aligncenter" src="media/qwant.png" alt="qwantlogo">
             <p>
-            L'ambassadeur américain Julien Charlent s'est aujourd'hui entretenu avec Vladimir poutine au Kremlin pour un éventuel accord sur un échange d'Edward Snow, l'ancien analyste à la N.S.A. qui a révélé des informations sur la surveillance de masse mise en place par la N.S.A. et la  C.I.A.  <a href="articlecia.html">Lire la suite</a></p>
+            Si vous n'avez pas encore entendu parler de Qwant vous avez manqué une grosse actualité puisque celui ci est présent partout en ce moment ! Ce moteur de recherche, né de l'esprit de 3 français en juin 2011, est basé sur le principe de ne garder aucune trace de ses utilisateurs...<a href="../Actualités/actu_2.html">Lire la suite</a></p>
             
             </div>
             
@@ -92,16 +85,16 @@
             
             <h2>Tor : l'anonymat total sur Internet</h2>
             <img src="media/tor.png" alt="torlogo">
-            <p>Tor est un réseau informatique superposé mondial et décentralisé. Il se compose d'un certain nombre de serveurs, appelés nœuds du réseau et dont la liste est publique5. Ce réseau permet d'anonymiser l'origine de connexions TCP6. Cela peut entre autres servir à anonymiser la source d'une session de navigation Web ou de messagerie instantanée7. Cependant, l'anonymisation du flux n'est pas suffisante8, car l'application peut potentiellement transmettre des informations annexes permettant d'identifier la personne : c'est pourquoi le projet Tor développe également un navigateur Web basé sur Firefox, Tor Browser, ainsi que d'autres applications spécialement modifiées pour préserver l'anonymat de leurs usagers.</p>
+            <p>Si vous souhaitez renforcer la sécurité quand vous surfez sur internet tout en vous assurant un anonymat total, le système Tor vous offre un excellent moyen gratuit de vous protéger. Le système Tor se présente sous la forme d’un package qui contient une version modifiée de Firefox, complété par un module de connexion au réseau Tor. Il suffit de décompresser et d’installer le tout. Une fois qu’une connexion sécurisée sera ouverte avec le réseau Tor, le système ouvre une fenêtre du navigateur Firefox, qui vous permettra de commencer votre navigation internet.</p>
             
             <div id="plusprog"> 
-            <a href="programmes.html">Description complète</a>
+            <a href="https://www.torproject.org/" target="_blank">Description complète</a>
             <p>Difficulté : 3/5</p>
             </div>
             
             <div id="plusprog2">
             <span id="download">
-            <a href="https://www.torproject.org/download/download-easy.html.en">Télécharger</a>
+            <a href="https://www.torproject.org/download/download-easy.html.en" target="_blank">Télécharger</a>
             </span>  
             </div>
             
@@ -109,10 +102,19 @@
         
     <!-- Jeu à l'affiche --> 
         <div id="jeuaffiche">
-        
-        <h1>Jeu à l'affiche</h1>
-        
+        <h1>Jeu à l'affiche :</h1>
         </div>
+    <!--    WIKIQUIZ   -->
+    <div id="quizz">
+        
+        <h1>WIKI QUIZ</h1>
+        
+        <img src="media/quiz.png"  alt="quiz">
+        <p>Testez vos conaissances sur le libre et l'informatique dans un quizz ludique, interactif et approfondi qui vous indiquera où vous renseigner en cas d'erreur.</p>
+        <input class="jouerquizz" type="button" value="Jouer" onclick="document.location.href='../Jeux/Quiz/quiz.html';">
+
+     </div>       
+    
         
     </section>
     
@@ -124,6 +126,6 @@
             <img src="media/tuxlogo.png" alt="wikilibrelogo">
         </div>
     
-</header>
+</body>
     
 </html>

@@ -120,7 +120,7 @@ section
 {
     width: 1400px;
 	margin: auto;
-    height: 1840px;
+    height: 1888px;
     background-color: white;
     margin-top: 30px;
     border-top-left-radius: 20px;
@@ -147,20 +147,21 @@ section
 {   
     display: inline-block;
     border-radius: 0px;
-    background-color: #FF0000;
-    color: #0800AE;
+    background-color: #FE4C4B;
+    color: black;
     padding-top: 0px;
     padding-bottom: 5px;
     text-align: center;
     font-size: 25px;
     width: 1400px;
+    font-family: arial;
 }
 
 hr
 {
     border-style: solid;
     border-width: 10px;
-    color: black;
+    color: #EAFF00;
 }
 
 hr.hrquizz
@@ -172,9 +173,12 @@ hr.hrquizz
 {
     width: 1400px;
     background-color: #0800AE;
-    color: #FF0000;
+    color: white;
     font-size: 30px;
     text-align: center;
+    font-family: arial;
+    padding-bottom: 10px;
+    padding-top: 10px;
 }
 
 #snowdensaver img
@@ -204,6 +208,9 @@ hr.hrquizz
     color: white;
     font-size: 30px;
     text-align: center;
+    font-family: arial;
+    padding-bottom: 10px;
+    padding-top: 10px;
 }
 
 #quizz img
@@ -231,10 +238,10 @@ input
     text-align: center;
     text-transform: uppercase;
     margin-bottom: 20px;
-    padding-top: 10px;
     font-size: 60px;
     width: 280px;
     height: 90px;
+    line-height: 0px;
 }
 
 input:hover

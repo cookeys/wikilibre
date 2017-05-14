@@ -162,6 +162,7 @@ section
 #titre
 {   
     display: inline-block;
+    font-family: arial;
     border-radius: 0px;
     background-color: #FE4C4B;
     padding-top: 0px;
@@ -171,10 +172,6 @@ section
     width: 1400px;
 }
 
-#piedpage
-{
-    
-}
 
 #piedpage p
 {   
@@ -252,6 +249,7 @@ section
 
 .titre_ga
 {
+    font-family: arial;
     float: left;
     margin-top: 5px;
     margin-left: 15px;
@@ -260,6 +258,7 @@ section
 
 .suite_ga
 {
+    font-family: arial;
     float: right;
     color: #707375;;   
     margin-right: 10px;
@@ -281,24 +280,36 @@ section
 /*########################################################################
 ####/            CSS de la partie des petits articles                /####
 ########################################################################*/
-#hide_2
+#hide
 {
+    margin: 0px auto;
     display: none;
-}
-
-.hide
-{
-    display: block;
-    margin: 50px auto;
-    width: 200px;
-    height: 50px;
+    width: 230px;
     border-radius: 3px;
     font-size: 25px;
     border: none;
-    background-color: white;
+    font-family: Arial;
 }
 
+#hide:hover
+{
+    cursor: pointer;
+}
 
+#show
+{
+    margin: 50px auto;
+    display: block;
+    width: 220px;
+    border-radius: 3px;
+    font-size: 25px;
+    font-family: Arial;
+}
+
+#show:hover
+{
+    cursor: pointer;
+}
 
 #fond_3a
 {
@@ -368,31 +379,33 @@ section
 
 .infos:hover span
 {
-    color: white;
+    color: red;
 }
 
 .titre_pa
 {
+    font-family: arial;
     float: left;
     margin-top: 15px;
     margin-left: 10px;
     font-size: 25px;
-    color:#707375;
+    color: white;
 }
 
 .suite_pa
 {
+    font-family: arial; 
     float: right;
-    color: black;
-    margin-top: 20px;
+    margin-top: 23px;
     margin-right: 10px;
     font-size: 15px;
-    color:#707375;
+    color: white;
 }
 
 .suite_pa:hover
 {
-    border-bottom: 1px solid white;
+    border-bottom: 1px solid red;
+    color: white;
 }
 
 

@@ -6,9 +6,7 @@
 
 html
 {
-    /* Background illustratif et non définitif */
     background-color: #323E55;
-    /*background-image: url(media/banner.jpg);*/
     background-repeat: no-repeat;
     background-size : 1715px 400px;
 
@@ -153,6 +151,7 @@ section
     text-align: center;
     font-size: 25px;
     width: 1400px;
+    font-family: arial;
 }
 
 /* Une : Vault 7 */
@@ -168,6 +167,7 @@ section
     border-radius: 5px;
     display: inline-flex;
     padding-left: 15px;
+    padding-right: 15px;
     padding-top: 5px;
     border-top: 3px solid black;
     border-bottom: 3px solid black;
@@ -213,7 +213,7 @@ section
     text-align: right;
 }
 
-/* Une2 : Edward Snowden */
+/* Une2 : Qwant */
 
 #une2
 {
@@ -227,6 +227,7 @@ section
     border-radius: 5px;
     display: inline-flex;
     padding-left: 15px;
+    padding-right: 15px;
     padding-top: 5px;
     border-top: 3px solid black;
     border-bottom: 3px solid black;
@@ -237,13 +238,13 @@ section
     text-align: center;
     margin: auto;
     height: 40px;
-    width: 540px;
+    width: 565px;
 }
 
 #une2 img
 {
     display: block;
-    margin-top: 1px;
+    margin-top: -10px;
     margin-left: 40px;
     margin-right: 40px;
     margin-bottom: 0px;
@@ -284,6 +285,7 @@ section
     font-size: 25px;
     width: 1400px;
     margin-top: 50px;
+    font-family: arial;
 }
 
 #progaffiche h2
@@ -291,6 +293,7 @@ section
     text-align: center;
     margin-top: 20px;
     font-size: 30px;
+
 }
 
 #progaffiche img
@@ -304,6 +307,7 @@ section
 
 #progaffiche p
 {
+    text-align: justify;
     margin-top: 40px;
     margin-left: 40px;
     font-size: 25px;
@@ -314,7 +318,6 @@ section
 #plusprog
 {
     margin-top: 10px;
-    margin-left: 540px;
 }
 
 #plusprog a
@@ -323,7 +326,8 @@ section
     float: left;
     width: 310px;
     font-size: 25px;
-    margin-left: 0px;
+    margin-left: 540px;
+    margin-bottom: 20px;
     text-decoration: none;
     text-transform: uppercase;
     text-decoration: blink;
@@ -348,7 +352,7 @@ section
 /*Télécharger*/
 {
     float: left;
-    width: 125px;
+    width: 0px;
     font-size: 25px;
     margin-left: 30px;
     text-decoration: none;
@@ -367,6 +371,89 @@ section
     font-size: 25px;
     width: 1400px;
     margin-top: 25px;
+    margin-bottom: 20px;
+    font-family: arial;
+}
+
+#quizz h1
+{
+    width: 1400px;
+    background-color: #00BE2C;
+    color: white;
+    font-size: 30px;
+    text-align: center;
+    font-family: arial;
+    padding-bottom: 10px;
+    padding-top: 10px;
+}
+
+#quizz img
+{
+    width: 795px;
+    height: 400px;
+    margin-top: 20px;
+    margin-left: 300px;
+    margin-right: 300px;
+}
+
+#quizz p
+{
+    text-align: center;
+    margin-left: 200px;
+    margin-right: 200px;
+    margin-top: 20px;
+    font-size: 25px;
+    font-family: arial;
+    width: 1000px;
+}
+
+input
+{
+    text-align: center;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+    font-size: 60px;
+    width: 280px;
+    height: 90px;
+}
+
+input:hover
+{
+    color:red;
+}
+
+input.regles
+{
+    margin-top: 30px;
+    margin-left: 390px;
+    margin-right: 20px;
+}
+
+input.jouer
+{
+    margin-top: 30px;
+    margin-left: 20px; 
+}
+
+input.regles:hover
+{
+    cursor: help;
+}
+
+input.jouer:hover
+{
+    cursor: pointer;
+}
+
+input.jouerquizz
+{
+    margin-top: 30px;
+    margin-left: 550px;
+}
+
+input.jouerquizz:hover
+{
+    cursor: pointer;
 }
 
 #piedpage p

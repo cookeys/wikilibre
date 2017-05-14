@@ -1,36 +1,146 @@
 <!DOCTYPE html>
-<html>
+<html lang="fr">
+
 <head>
-	<meta charset="utf-8">
-	<title></title>
-	<script type="text/javascript" src="scriptquiz.js"></script>
-	<script type="text/javascript" src="toolBox.js"></script>
-	<link rel="stylesheet" type="text/css" href="quizstyle.css">
+<meta charset="utf-8">    
+        <meta charset="utf-8" />
+    
+    <title>Quiz - WikiLibre </title>
+    
+    <!--    Stylesheet   -->   
+    <link rel="stylesheet" type="text/css" href="quizstyle.css">
+    
+    <!--    Script       -->
+        <script type="text/javascript" src="horloge.js"></script> 
+        <script type="text/javascript" src="scriptquiz.js"></script>
+        <script type="text/javascript" src="toolBox.js"></script>
+    
+    <!--    FavIcon     -->
+        <link rel="shortcut icon" href="media/favicon.ico" type="image/x-icon">
+        <link rel="icon" href="media/favicon.ico" type="image/x-icon">
+    
 </head>
-<body onload="init()">
-<div id="quiz">
-	<canvas id="ecran" width="750" height="450"></canvas>
-	<br>
-	<button type="button" id="boutton1" onclick="reponse1()">Choix n°1</button>
-	<button type="button" id="boutton2" onclick="reponse2()">Choix n°2</button>
-</div>
-<script type="text/javascript">
-	var imFond=[];
-	for (var i = 0; i <4; i++)
-	{
-		imFond[i] = document.createElement('img');
-		imFond[i].src="media/Fond/salle"+i+".jpg";
-		imFond[i].alt="salle";
-	}
+    
+<body>
+    
+    <!-- Bannière -->        
+    <div id="banner">
 
-	var imPerso=[];
-	for (var i = 0; i <7; i++)
-	{
-		imPerso[i] = document.createElement('img');
-		imPerso[i].src="media/Personnage/perso"+i+".png";
-		imPerso[i].alt="personnage";
-	}
-</script>
+    </div>
+    
+    <!-- Barre de navigation -->
+    	<div id="navbar">
+	        <h1>WikiLibre</h1>
+	        <ul> 
+                <li><a href="../../Accueil/home.html">Accueil</a></li>
+                
+                 <li><a href="../../Actualités/actus.html"  >Actualités</a></li>
+                
+                <li><a href="../../Libre/libre.html">Le libre</a></li>
+                
+                <li><a href="../../Programmes/programmes.html">Programmes</a></li>
+                
+                
+                <li><a class="active" href="../../Jeux/jeux.html"  >Jeux</a></li>
+                
+                <li><div id="horloge"></div></li>
+                
+                <iframe src="https://duckduckgo.com/search.html?width=490&prefill=Search DuckDuckGo"  frameborder="0"></iframe>
+                
+                <li><a href="../../Nous/nous.html">Nous</a></li>
 
+	        </ul>
+            
+
+       	</div>
+    
+    <section id="accueil">
+        
+    <!-- Présentation -->
+        <div id="presentation">        
+            <!-- <h1>Bienvenue sur WikiLibre [...]<br>Présentation rapide des personnes et du but du site<br>Découverte et fonctions<br>Date et proprios du site
+            <br>Définition du libre</h1> -->
+        </div>
+    
+    <!-- Catégorie 1 -->
+        <div id="titre1">
+            <h1>Quiz</h1>
+        </div>
+
+        
+
+        <!-- Quiz -->
+            <div id="quiz">
+
+                <h2 id="question">Question 1</h2>
+                <h3 id="enonce">Quel est le nom du smartphone de Meizu sous Ubuntu ?</h3>
+
+                <canvas id="ecran" width="1100" height="600"></canvas>
+
+                <div id="bordecran">
+
+                    <div id="defaite">
+
+                        <h1>Perdu</h1>
+                        <br>
+                        <h2>La réponse est</h2>
+                        <p><a id="lien" href="../../Actualités/actu_1.html" target="_blank">ici</a></p>
+                        <img src="media/Dead-Link.png" alt="Link">
+
+                    </div>
+
+                    <div id="victoire">
+                    
+                        <h1>Bravo</h1>
+                        <br>
+                        <h2>Tu as réussi à retrouver Tux</h2>
+                        <img src="media/Link.png" alt="Link">
+
+                    </div>
+                    
+                </div>
+
+                <br>
+                <button type="button" id="bouton1" onclick="reponse1()">Aquaris E5</button>
+                <button type="button" id="bouton2" onclick="reponse2()">Pro 5</button>
+
+            </div>
+
+         <!-- Fond et personnage -->
+            <script type="text/javascript">
+
+                var imFond=[];
+                for (var i = 0; i <4; i++)
+                {
+                    imFond[i] = document.createElement('img');
+                    imFond[i].src="media/Fond/salle"+i+".jpg";
+                    imFond[i].alt="salle";
+                }
+
+                var imPerso=[];
+                for (var i = 0; i <12; i++)
+                {
+                    imPerso[i] = document.createElement('img');
+                    imPerso[i].src="media/Personnage/perso"+i+".png";
+                    imPerso[i].alt="personnage";
+                }
+
+            </script>
+            
+            <script type="text/javascript">
+                init();
+            </script>
+        
+    </section>
+    
+    
+    
+    <!-- Pied de page -->
+        <div id="piedpage">
+         <p>Copyright © 2017 WikiLibre Inc. All rights reserved.</p>
+            <img src="media/tuxlogo.png" alt="wikilibrelogo">
+        </div>
+    
 </body>
+    
 </html>
